@@ -12,6 +12,7 @@ functionStudent(name,age,grade) {
 }   
 //创建一个学生类   
 var student=new Student("qian",21,"一年级"); 
+
 分析: Person.apply(this,arguments); 
 this:在创建对象在这个时候代表的是student  
 arguments:是一个数组,也就是[“qian”,”21”,”一年级”]; 
