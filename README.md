@@ -38,4 +38,7 @@ sayColor();  //red
 sayColor.call(this); //red
 sayColor.call(window); //red
 sayColor.call(o) //blue
+
+要找到数组中最大或最小值，可以使用apply()
+Math.min.apply(Math,['22',11,44])
 </pre>
