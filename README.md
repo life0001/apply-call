@@ -40,5 +40,7 @@ sayColor.call(window); //red
 sayColor.call(o) //blue
 
 要找到数组中最大或最小值，可以使用apply()
-Math.min.apply(Math,['22',11,44])
+Math.min.apply(Math,['22',11,44])  //11
+Math.max.apply(Math,['22',11,44])  //44
+这个技巧是把Math作为第一个参数，从而正确地设置this的值
 </pre>
